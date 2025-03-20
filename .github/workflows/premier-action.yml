@@ -1,0 +1,8 @@
+name: Demo
+on: workflow_dispatch
+jobs:
+  premier-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print step 
+        run: echo "Hello Word !"
